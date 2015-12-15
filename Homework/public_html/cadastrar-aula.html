@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Nova Aula</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--        <link rel="stylesheet" href="themes/verde.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.structure-1.4.5.min.css" />
+        <script src="jquery/jquery-1.11.3.min.js"></script>
+        <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="jquery/jquery.mobile.datepicker.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.datepicker.theme.css" />
+        <script src="jquery/datepicker.js"></script>        
+        <script src="jquery/jquery.mobile.datepicker.js"></script>        
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.timebox.css" />
+        <script src="jquery/jquery.mobile.timebox.js"></script>-->
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header" data-position="fixed">
+                <h1 style="text-align: left; margin-left:10px;" >Nova Aula</h1>
+                <a style="left:auto; right:55px;" class="btn-color meu" href="aulas.html" data-icon="check" data-iconpos="notext">Salvar</a>
+                <a style="left:auto; right:10px;" class="btn-color" href="aulas.html" data-icon="delete" data-iconpos="notext">Cancelar</a>
+            </div>
+            <div style="margin: 5px" class="ui-field-contain">
+                <form>
+                    <input placeholder="Disciplina" type="text">
+                    <input placeholder="Professor" type="text">
+                    <input placeholder="De" type="text" data-options='{"mode":"timebox"}' data-role='datebox'>
+                    <input placeholder="Até" type="text" data-options='{"mode":"timebox"}' data-role='datebox'>
+                    <label>Dias da Semana</label>
+                        <input type="checkbox" id="seg">
+                        <label for="seg">Segunda</label>
+                        <input type="checkbox" id="terc">
+                        <label for="terc">Terça</label>
+                        <input type="checkbox" id="quart">
+                        <label for="quart">Quarta</label>
+                        <input type="checkbox" id="quin">
+                        <label for="quin">Quinta</label>
+                        <input type="checkbox" id="sex">
+                        <label for="sex">Sexta</label>
+                        <input type="checkbox" id="sab">
+                        <label for="sab">Sábado</label>
+                 </form> 
+            </div>
+        </div>
+    </body>
+</html>

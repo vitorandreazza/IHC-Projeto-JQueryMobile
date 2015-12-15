@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Homework</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="themes/verde.css" />
+        <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.structure-1.4.5.min.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.datepicker.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.datepicker.theme.css" />
+        <link rel="stylesheet" href="jquery/jquery.mobile.timebox.css" />
+        <link rel="stylesheet" href="style.css" />
+        <script src = "jquery/jquery-1.11.3.min.js"></script>
+        <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+        <script src="jquery/datepicker.js"></script>        
+        <script src="jquery/jquery.mobile.datepicker.js"></script>
+        <script src="jquery/jquery.mobile.timebox.js"></script>
+    </head>
+    <body>
+        <div data-role="page">
+            <div data-role="header" data-position="fixed" class="">
+                <h1>Homework</h1>
+                <a class="btn-color" href="#menu" data-icon="bars" data-iconpos="notext">Menu</a>
+            </div>
+            <div class="hoje" data-role="content">
+                <center><p>Hoje - Quinta-feira, 19 de novembro de 2015</p></center>
+            </div>
+            <div data-role="panel" data-position-fixed="true" data-display="overlay" data-theme="a" id="menu">
+                <ul data-role="listview">
+                    <li data-icon="delete"><a href="#" data-rel="close">Fechar menu</a></li>
+                    <li data-icon="home"><a href="index.html">Inicio</a></li>
+                    <li data-icon="calendar"><a href="calendario.html">Calendario</a></li>
+                    <li data-icon="class"><a href="aulas.html">Aulas</a></li>
+                    <li data-icon="task"><a href="tarefas.html">Tarefas</a></li>
+                    <li data-icon="exam"><a href="provas.html">Provas</a></li>
+                </ul>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div class="ui-bar ui-bar-a div" style="background: rgb(28, 134, 141);">
+                        <p>Hoje<br/><br/><br/>
+                        2 aulas<br/>
+                        0 provas</p>
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar ui-bar-a div" style="background: rgb(28, 49, 141);">
+                        <p>Tarefas<br/><br/><br/>
+                        2 tarefas para hoje<br/>
+                        0 tarefas para amanhã</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <div class="ui-bar ui-bar-a div" style="background: rgb(24, 119, 100);">
+                        <p>Aulas<br/><br/><br/>
+                        0 aulas para amanhã</p>
+                    </div>
+                </div>
+                <div class="ui-block-b">
+                    <div class="ui-bar ui-bar-a div" style="background: rgb(76, 17, 48);">
+                        <p>Provas<br/><br/><br/>
+                        0 provas nos proximos 7 dias</p>
+                    </div>
+                </div>
+            </div>
+         <h2 style="margin-left: 5px">Aulas</h2>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">
+                    <img src="img/verde.png" title="verde" alt="verde" />
+                    <h1>IHC</h1></a>
+                </li>
+                <li><a href="#">
+                    <img src="img/roxo.png" title="roxo" alt="roxo" />
+                    <h1>SO</h1></a>
+                </li>
+            </ul>
+         <h2 style="margin-left: 5px">Tarefas</h2>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">
+                    <img src="img/verde.png" title="verde" alt="verde" />
+                    <h1 style="font-weight: bold">Tarefa</h1>
+                    <p>IHC</p></a>
+                </li>
+                <li><a href="#">
+                    <img src="img/roxo.png" title="roxo" alt="roxo" />
+                    <h1>Trabalho</h1>
+                    <p>SO</p></a>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>

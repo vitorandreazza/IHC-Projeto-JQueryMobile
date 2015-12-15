@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/11/2015, 22:14:47
+    Author     : Vitor
+*/
+
+.div{
+    height:150px !important;
+    color: white !important;
+    margin: 4px !important;
+}
+.btn-color {
+    background-color: rgb(28, 141,118) !important; 
+    border-color: rgb(15, 77, 64) !important;
+}
+.ui-icon-class:after {
+    background-image: url("icons/class.svg");
+    background-size: 18px 18px;
+}
+.ui-icon-exam:after {
+    background-image: url("icons/exam.svg");
+    background-size: 18px 18px;
+}
+.ui-icon-task:after {
+    background-image: url("icons/task.svg");
+    background-size: 18px 18px;
+}
+.hoje {
+    background-color: black;
+    color: white;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    top: -20px;
+    margin-bottom: -15px;
+}
